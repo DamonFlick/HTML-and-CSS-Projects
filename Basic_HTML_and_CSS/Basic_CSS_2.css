@@ -3,6 +3,10 @@ p	{
 		background: navy;
 		font-weight: bold
 		text-align: center;
+	
 	}
 	/*and do is this!*/
-	
+	h1{
+		color: cyan;
+		text-shadow: 2px 2px #2f5314;
+	}
