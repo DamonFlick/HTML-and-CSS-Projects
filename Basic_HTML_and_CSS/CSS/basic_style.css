@@ -11,7 +11,7 @@ text-shadow: 1px .5px 4px rgba(0,0,0, 0.6);
 .container {
     width: 450px;
     height: 450px;
-    background-color: #59a5ed;
+    background-color: #1a61a4;
     border: 2px solid black;
     border-radius: 5% ;
 }
@@ -50,7 +50,7 @@ text-shadow: 1px .5px 4px rgba(0,0,0, 0.6);
 -------------------------------------------------*/
 
 .squares:nth-child(1) {
-    background-color: #f55454;
+    background-color: #e07a4b;
 }
 
 .squares:nth-child(2) {
@@ -62,8 +62,9 @@ text-shadow: 1px .5px 4px rgba(0,0,0, 0.6);
 }
 
 .squares:nth-child(4) {
-    background-color: #e123db;
+    background-color: #7e257c;
 }
+
 
 /*--------------------------------------------
     HOVER, TRANSLATE, & TRANSFORM EFFECTS
@@ -83,7 +84,7 @@ text-shadow: 1px .5px 4px rgba(0,0,0, 0.6);
 }
 
 .squares:nth-child(2):hover{
-    background-color: #ff131f;
+    background-color: #a92727;
 }
 
 .squares:nth-child(3):hover{
