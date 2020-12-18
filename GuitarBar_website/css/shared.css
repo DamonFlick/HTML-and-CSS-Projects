@@ -15,8 +15,8 @@ body {
     margin: 0;
     font-family:"helvetica neue", Helvetica, Arial,sans-serif;
     line-height: 1.42857143;
-    color: #333;
-    background-color: #fff;
+    color: rgb(110, 79, 20);
+    background-color:rgb(216, 178, 106);
 }
 
 footer,
@@ -34,7 +34,7 @@ h1 {
     font-size: 30px;
     text-transform: uppercase;
     text-align:center;
-    color: #E91C1C;
+    color: #0f405a;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
 
@@ -43,14 +43,14 @@ h1::after{/* This is the underline*/
     content: "";
     height: 2px;
     width: 150px;
-    background-color: #E91C1C;
-    margin: 5px auto 40px;
+    background-color: #abc1c290;
+    margin: 8px auto 40px;
     box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
 }
 
 h2{
     line-height: 50px;
-    color: #E91C1C;
+    color: #abc1c2;
 }
 
 h3{
@@ -72,7 +72,7 @@ p{
     padding-bottom: 15px;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
@@ -113,17 +113,19 @@ section {
     height: 100%;
     width: 100%;
     position: absolute;
-    overflow:hidden
+    overflow:hidden;
+    text-align: center;  
 }
 
 .menu-container {
     max-height: 340px;
     margin: 0% auto;
     content:" ";
-
+    background-color:rgb(100, 65, 0) ;
     width: 100%;
     position: fixed;
     z-index: 100;
+   
 }
 
 /*===================================================
@@ -142,13 +144,14 @@ section {
     height: auto;
     padding-top: 350px; /*This is spacer before main title logo*/
     padding-bottom: 500px;/* This is a spacer after the Logo*/
-    color: #fff;
+    color: rgba(220, 161, 73, 0.912);
+    
 }
 
 .head-main {
-    text-shadow: 2px 4px 5px rgba(0,0,0,0.9);
+    text-shadow: 4px 7px 6px rgba(0,0,0,0.9);
     font-variant: small-caps;
-    color: #fff;
+    color: rgb(250, 250, 250);
     letter-spacing: 5pt;
     word-spacing: 21pt;
     font-size: 4.5em;
@@ -158,6 +161,7 @@ section {
     font-weight: 900;
     border: 5px double #fff;
     padding: 10px;
+    background-color: rgba(104, 78, 14, 0.296);
 }
 
 .head-sub-main{
@@ -185,7 +189,7 @@ Contact STYLES
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background-color: rgba(100,65,0,0.3);
+    background-color:rgba(189, 138, 42, 0.85);
     text-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
@@ -198,7 +202,7 @@ Contact STYLES
     padding: 10px;
     border-radius:8px;
     margin: 0 auto;
-    background-color: rgba(100,65,0,0.3);
+    background-color: rgba(189, 138, 42, 0.85);
     box-shadow: -1px -1px 1px 0 rgba(0,0,0,0.1), 1px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
@@ -229,19 +233,20 @@ Contact STYLES
     color: #13161b;
     width: 50%;
     margin:0 auto;
+    text-align: center;
 }
 
 .reservation form {
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color: #8d8e8f;
+    color: #f0f0f0;
     padding: 12px 12px;
     width: 70%;
-    border: 1px solid #808080;
+    border: 1px solid rgb(100, 65, 0);
     margin: 2% auto;
     border-radius: 7px;
-    background: rgb(227, 222, 222);
+    background:rgb(216, 178, 106);
     box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.3);
     font-family: 'Raleway', sans-serif;
 }
@@ -250,22 +255,22 @@ Contact STYLES
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color: #8d8e8f;
+    color: #cec19f;
     padding: 2% 1% 2% 7%;
     width: 80%;
     border-top: 1px solid #090b0d;
-    border-right: 2px solid #434549;
-    border-bottom: 2px solid #434549;
+    border-right: 2.5px solid #434549;
+    border-bottom: 2.5px solid #434549;
     border-left:1px solid #090b0d;
     margin: 10px 1em;
     border-radius: 7px;
-    background: #13161b;
+    background: #373124;
     box-shadow: inset 0px 3px 0px 0px rgba(5,5,5,0.15);
     font-family: 'Raleway', sans-serif;
 }
 
 .reservation input[type="text"]:hover {
-    box-shadow: 0 0 18px rgba(100,65,0,.8);
+    box-shadow: 0 0 18px rgba(10, 78, 123, 0.8);
 }
 
 .form-spacer{
@@ -277,7 +282,7 @@ Contact STYLES
     padding-left: 52px;
     font-size: 14px;
     line-height: 5px;
-    color: #000;
+    color: rgb(100, 65, 0);
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -285,12 +290,12 @@ Contact STYLES
 }
 
 .terms:hover {
-    color: orange;
+    color:   rgba(5, 42, 67, 0.8);
     text-decoration: underline;
 }
 
 .submit input[type="submit"] {
-    color: rgb(225,225,225);
+    color: rgb(218, 181, 32);
     cursor: pointer;
     border: none;
     font-weight: 900;
@@ -303,13 +308,13 @@ Contact STYLES
     font-size: 10px;
     transition: border-color 0.3s color 0.3s background-color 0.3s;
     border-radius: 7px;
-    background-color: #797a7b;
+    background-color: rgb(100, 65, 0);
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
 }
 
 .submit input[type="submit"]:hover {
-    color: #000;
-    background-color: #0D0E0F;
+    color:rgba(114, 165, 199, 0.8);
+    background-color: rgba(5, 42, 67, 0.8);
     box-shadow: inset 1px 2px 15px 0 rgba(0,0,0,0.5);
 }
 
@@ -317,8 +322,8 @@ Contact STYLES
  FOOTER STYLES 
  =======================================*/
  #footer {
-     background-color: rgba(100,65,0,.3);
-     color: #000;
+     background-color: rgb(100, 65, 0);
+     color: rgb(218, 181, 32);
      text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
      padding: 20px 50px 20px 50px;
      text-align: right;
