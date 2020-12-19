@@ -16,7 +16,8 @@ body {
     font-family:"helvetica neue", Helvetica, Arial,sans-serif;
     line-height: 1.42857143;
     color: rgb(110, 79, 20);
-    background-color:rgb(216, 178, 106);
+    background-color:rgb(228, 202, 153);
+   
 }
 
 footer,
@@ -34,8 +35,8 @@ h1 {
     font-size: 30px;
     text-transform: uppercase;
     text-align:center;
-    color: #0f405a;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    color: #0f405ad2;
+    text-shadow: 2px 2px 2.5px rgba(0,0,0,0.5);
 }
 
 h1::after{/* This is the underline*/
@@ -43,7 +44,7 @@ h1::after{/* This is the underline*/
     content: "";
     height: 2px;
     width: 150px;
-    background-color: #abc1c290;
+    background-color: #79bf6690;
     margin: 8px auto 40px;
     box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
 }
@@ -125,6 +126,7 @@ section {
     width: 100%;
     position: fixed;
     z-index: 100;
+    box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.5);
    
 }
 
@@ -144,7 +146,7 @@ section {
     height: auto;
     padding-top: 350px; /*This is spacer before main title logo*/
     padding-bottom: 500px;/* This is a spacer after the Logo*/
-    color: rgba(220, 161, 73, 0.912);
+    color: rgba(173, 126, 56, 0.912);
     
 }
 
@@ -191,6 +193,7 @@ Contact STYLES
     margin: 0px auto;
     background-color:rgba(189, 138, 42, 0.85);
     text-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
+    box-shadow: -1px -1px 1px 0 rgba(0,0,0,0.1), 1px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
 #contact{
