@@ -300,7 +300,7 @@ Contact STYLES
 .submit input[type="submit"] {
     color: rgb(218, 181, 32);
     cursor: pointer;
-    border: none;
+    border: 1px solid black;
     font-weight: 900;
     outline: none;
     text-align: center;
