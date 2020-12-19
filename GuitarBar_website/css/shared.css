@@ -246,7 +246,7 @@ Contact STYLES
     color: #f0f0f0;
     padding: 12px 12px;
     width: 70%;
-    border: 1px solid rgb(100, 65, 0);
+    border: 1.5px solid rgb(100, 65, 0);
     margin: 2% auto;
     border-radius: 7px;
     background:rgb(216, 178, 106);
@@ -266,7 +266,7 @@ Contact STYLES
     border-bottom: 2.5px solid #434549;
     border-left:1px solid #090b0d;
     margin: 10px 1em;
-    border-radius: 7px;
+    border-radius: 6px;
     background: #373124;
     box-shadow: inset 0px 3px 0px 0px rgba(5,5,5,0.15);
     font-family: 'Raleway', sans-serif;
