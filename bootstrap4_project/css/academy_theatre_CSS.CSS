@@ -1,4 +1,5 @@
 .thumb { 
-    height:217px;
-    width: 343px;
+    height: 217px;
+    object-fit: cover;
+    overflow: hidden;
 }
