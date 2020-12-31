@@ -1,9 +1,0 @@
-.thumb { 
-    height: 217px;
-    object-fit: cover;
-    overflow: hidden;
-}
-
-.linearGradient {
-    background: linear-gradient(to bottom, #66ffcc 0%, #ff99cc 100%);
-}

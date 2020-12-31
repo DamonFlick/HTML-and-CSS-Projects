@@ -1,1 +1,0 @@
-smaller and larger change the font size one step smaller or larger than the parent element
