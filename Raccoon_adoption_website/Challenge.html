@@ -4,6 +4,10 @@
 		<title>This is a Challenge!</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/Challenge.css"	>
+        <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js">
+     </script>
+     <script src="./js/main.js"></script>
 	</head>
 	<body>
 <!--Navbar-->
@@ -45,6 +49,7 @@
         </div>
 <!--End Table-->
 
+        <hr>
         <div class="row">
             <div class="column">
                 <h2>The History Of Racoons</h2>
@@ -67,7 +72,7 @@
                         <img 
                             src="imgs/raccoon_sunset.png"
                             alt="Sunset raccoon"
-                            id="racoon2">
+                            id="raccoon2">
                         <div class="photo-overlay" id="photo-overlay-2">
                             <p>Look inside yourself...</p>
                         </div>
@@ -116,7 +121,36 @@
                 
             </div>
         </div>
-        
+        <div id="slideshow">
+            <div>
+                <img src="./imgs/raccoon_slideshow1.png">
+            </div>
+            <div>
+                <img src="./imgs/raccoon_slideshow2.png">
+            </div>
+            <div>
+                <img src="./imgs/raccoon_slideshow3.png">
+            </div>
+        </div>
+         <!--Sticky Pop Up-->
+        <div class="sticky">
+            <button class="open-button" onclick="openForm()">Click here to Sign Up!</button>
+        </div>
+    <!--Pop up Content-->
+        <div class="form-popup" id="adoptionForm">
+            <form class="form-container" action="" method="POST">
+                <input class="rsvp" type="text" value="" placeholder="First Name">
+                <input class="rsvp" type="text" value="" placeholder="Last Name">
+                <input class="rsvp" type="text" value="" placeholder="Email Address">
+                <input class="rsvp" type="text" value="" placeholder="Phone Number">
+                <input type="submit" class="btn" value="Submit">
+                <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+    
+            </form>
+                
+            </div>
+        </div>
+<!--End Stick Pop Up-->
     </body>
     <footer class="center">
         <p class="footer-text">Racoons Deserve Our Affection &nbsp; | &nbsp; &copy;&nbsp;2020</p>
